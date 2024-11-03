@@ -1,0 +1,23 @@
+.avatar {
+    border-radius: 25px;
+    margin: 5px;
+}
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+   
+}
+.profile_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile_name h3 {
+    padding: 5px;
+}
+.switch a {
+    text-decoration: none;
+    color: blue;
+}

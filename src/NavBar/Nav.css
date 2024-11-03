@@ -1,0 +1,45 @@
+ .Nav {
+  width: 100%;
+  height: fit-content;
+ }
+  .Nav_logo {
+    padding-left: 10px;
+  }
+  .link {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .link a {
+    text-decoration: none;
+    padding: 10px;
+  }
+  .link_Down {
+    padding: 10px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0px;
+  }
+  .link_Down a {
+    text-decoration: none;
+    
+    padding: 10px;
+  }
+  .icon {
+    display: none;
+  }
+  @media (max-width:600px) {
+    .icon {
+      display:block;
+      padding: 10px;
+      font-size: 30px;
+    }
+    .icon i {
+      padding: 5px;
+    }
+    .Nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  
